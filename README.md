@@ -1,36 +1,24 @@
-# wt
-Easy UNIX filetype lookup.
+# el
+**Extension lookup**
 
-## Updates
-
-Now supports 1,646 file extensions!
+* Supports 1,646 file extensions
+* Extensible
 
 ## Quick Start
-
-[Download the rep](https://github.com/maelswarm/wt/archive/master.zip)
-
-clone the rep: git clone ht&#8203;tps://git@github.com:maelswarm/wt.git
-
-Compile:
-
-    gcc main.c -o wt
+* Clone the repo: `git clone https://github.com/pepa65/el`
+* Compile: `make`
+* Move `el` into the PATH: `mv el ~/bin/`
 
 ## Usage
+`el` <filename|extension>
 
-    ./wt aiv
-    avi: Audio Video Interleave file.
-    
-    ./wt main.c
-    main.c: C language file.
+### Examples
+`el crt`
+```
+.crt: Distinguished Encoding Rules stores certificates
+```
 
-Or move wt to /usr/local/bin
-
-    mv wt /usr/local/bin
-    
-And then
-
-    wt aiv
-    Audio Video Interleave file.
-    
-    wt main.c
-    C language file.
+`el el.c`
+```
+.c: C language file
+```
