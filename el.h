@@ -7,7 +7,7 @@
 
 // Extensions list: multiple allowed, sort order unimportant
 // Format: "Extension\t" "Description\n"
-const char* extdescr =
+const char *extdes =
 "000\t" "Snes9X Save States\n"
 "001\t" "Snes9X Save States\n"
 "002\t" "Snes9X Save States\n"

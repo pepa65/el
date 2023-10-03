@@ -1,8 +1,7 @@
 # el
 **Extension lookup**
 
-* Supports 1,646 file extensions
-* Extensible
+* Extensible & adaptable: edit `el.h`
 
 ## Quick Start
 * Clone the repo: `git clone https://github.com/pepa65/el`
