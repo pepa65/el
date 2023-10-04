@@ -15,9 +15,16 @@
 `el crt`
 ```
 .crt: Distinguished Encoding Rules stores certificates
+.crt: Cartridge images
 ```
 
 `el cycle.1.ada`
 ```
 .1.ada: Ada (specification) source
+```
+
+`el tar.gz`
+```
+.tar.gz: (Gzip, .tar.gz): TGZ gzipped tar file
+.gz: Gzip Compressed file
 ```
