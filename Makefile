@@ -1,18 +1,20 @@
 # Makefile for el - Extension lookup
 
+APP := el
+SELF := Makefile
 SOURCES := el.c el.h
 OBJECTS := el.o
 WARNING := -Wall -Wextra
 
 .PHONY: all clean
 
-all: el
+all: $(APP)
 
 clean:
-	rm el.o
+	$(RM) $(OBJECTS)
 
-el.o: el.c el.h Makefile
+$(OBJECTS): $(SOURCES) $(SELF)
 	$(CC) $(WARNING) -c $< -o $@
 
-el: el.o
+$(APP): $(OBJECTS)
 	$(CC) $(WARNING) $^ -o $@

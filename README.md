@@ -9,7 +9,7 @@
 * Move `el` into the PATH: `mv el ~/bin/`
 
 ## Usage
-`el` <filename|extension>
+`el <filename/extension>`
 
 ### Examples
 `el crt`
@@ -17,7 +17,7 @@
 .crt: Distinguished Encoding Rules stores certificates
 ```
 
-`el el.c`
+`el cycle.1.ada`
 ```
-.c: C language file
+.1.ada: Ada (specification) source
 ```

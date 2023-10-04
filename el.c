@@ -10,7 +10,7 @@ int listMatches(const char *ext){
 	int found = 0;
 	// Loop over all extensions
 	for(size_t i=0; i<extdes_len; ++i){
-		if(extdes[i] != ext[j]){ // Mismatch, seek after the next newline
+		if(extdes[i] != ext[j]){ // Mismatch, seek further after the next newline
 			while(i<extdes_len && extdes[i] != 10)
 				++i;
 			j = 0;
@@ -35,7 +35,7 @@ int listMatches(const char *ext){
 
 int main(const int argc, const char *argv[]){
 	if(argc != 2){
-		fprintf(stderr, "Error: require a single filename\n");
+		fprintf(stderr, "Error: require a single filename or extension\n");
 		return 1;
 	}
 
