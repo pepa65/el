@@ -9,7 +9,7 @@
 * Move `el` into the PATH: `mv el ~/bin/`
 
 ## Usage
-`el <filename/extension>`
+`el FILENAME/EXTENSION`
 
 ### Examples
 `el crt`

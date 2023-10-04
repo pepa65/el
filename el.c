@@ -1,5 +1,10 @@
 // el - Extension lookup
 
+#include <ctype.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
 #include "el.h"
 
 int listMatches(const char *ext){
